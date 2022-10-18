@@ -1,7 +1,6 @@
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
+#include <stdio.h>
+int main() {
+      int x=0;
     while(1)
     {
         float p,c,b,m,comp,percentage;
@@ -64,15 +63,14 @@ int main()
             {
                 printf("Fail\n");
             }
-
-            getch();
-        } // End Of Grade
-        
-
-
-    } //End Of Loop
-
-
-
-    
-} //End Of Main FUnction
+            
+        } 
+       printf("calculat next  \n  type \n 1- yes ");
+   
+    scanf("%d",&x);
+    if(x!=1){
+        break;  
+    }
+    }
+    return 0;
+}
